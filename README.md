@@ -36,7 +36,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-⚡ **Ensure you have a webcam connected** for real-time detection. If using a deep learning model, download pretrained weights as specified in `model_weights/README.md`.
+⚡ **Ensure you have a webcam connected** for real-time detection. If using a deep learning model.
 
 ## 📜 Code Explanation
 
@@ -75,11 +75,7 @@ cv2.destroyAllWindows()
 
 This script captures real-time video, processes each frame, and marks keypoints on detected human poses.
 
-## 📊 Results & Output
 
-Here’s what the output looks like when detecting human pose in real-time:
-
-![Pose Estimation Output](https://example.com/sample_output.png) *(Replace with an actual image)*
 
 ## 🚀 Future Enhancements
 
